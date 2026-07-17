@@ -1,4 +1,10 @@
-# 师维 Codex ↔ GPT GitHub 交换协议 v1.0
+# 师维 Codex ↔ GPT GitHub 交换协议 v1.1
+
+```text
+current_version = v1.1
+v1.0 = 固定仓、双分支、出站与回传指针
+v1.1 = 增加 Codex 收件回执与缺件反馈闭环
+```
 
 ## 一、分支所有权
 
