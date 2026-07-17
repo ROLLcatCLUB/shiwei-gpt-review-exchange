@@ -1,0 +1,5 @@
+{
+  "schemaVersion": "1.0",
+  "status": "REPAIR_IN_PROGRESS",
+  "note": "A temporary .zip.b64 transport copy exists, but Codex requires the actual ZIP object or immutable Release asset. GPT is completing Git Data API binary upload before updating INBOUND_POINTER.json."
+}
