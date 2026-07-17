@@ -1,0 +1,308 @@
+{
+  "task": "CLASSROOM_M2_1_PRODUCT_SEMANTICS_RESEARCH_REFERENCE_STATE_HIERARCHICAL_ARCHIVE_AND_TEACHER_DENSITY_CLOSURE",
+  "checkedAt": "2026-07-17T11:40:28.272Z",
+  "result": "PASS",
+  "passed": 73,
+  "total": 73,
+  "checks": [
+    {
+      "label": "工作集结构校验通过",
+      "condition": true
+    },
+    {
+      "label": "fixture-only运行边界",
+      "condition": true
+    },
+    {
+      "label": "刷新后内存重置",
+      "condition": true
+    },
+    {
+      "label": "大单元子课时层级完整",
+      "condition": true
+    },
+    {
+      "label": "课堂记录包不少于七个",
+      "condition": true
+    },
+    {
+      "label": "课堂记录包ID唯一",
+      "condition": true
+    },
+    {
+      "label": "优先级由确定性函数派生",
+      "condition": true
+    },
+    {
+      "label": "下一节课唯一",
+      "condition": true
+    },
+    {
+      "label": "今天课程存在",
+      "condition": true
+    },
+    {
+      "label": "本周课程存在",
+      "condition": true
+    },
+    {
+      "label": "最近完成存在",
+      "condition": true
+    },
+    {
+      "label": "空课表安全",
+      "condition": true
+    },
+    {
+      "label": "复用课次为fixture候选",
+      "condition": true
+    },
+    {
+      "label": "复用引用源版本",
+      "condition": true
+    },
+    {
+      "label": "复用引用源快照",
+      "condition": true
+    },
+    {
+      "label": "研究候选只保存引用",
+      "condition": true
+    },
+    {
+      "label": "研究候选反向写入课堂包引用",
+      "condition": true
+    },
+    {
+      "label": "研究对象名称校验存在",
+      "condition": true
+    },
+    {
+      "label": "课堂包唯一校验存在",
+      "condition": true
+    },
+    {
+      "label": "证据归属校验存在",
+      "condition": true
+    },
+    {
+      "label": "非匿名额外确认存在",
+      "condition": true
+    },
+    {
+      "label": "课时归档计划统计阻断",
+      "condition": true
+    },
+    {
+      "label": "部分归档保护待处理课堂",
+      "condition": true
+    },
+    {
+      "label": "恢复后当前状态为ACTIVE",
+      "condition": true
+    },
+    {
+      "label": "恢复转换单独记录",
+      "condition": true
+    },
+    {
+      "label": "今天默认展开",
+      "condition": true
+    },
+    {
+      "label": "本周默认折叠",
+      "condition": true
+    },
+    {
+      "label": "最近完成默认展开",
+      "condition": true
+    },
+    {
+      "label": "学期课架默认折叠",
+      "condition": true
+    },
+    {
+      "label": "记录层级默认折叠",
+      "condition": true
+    },
+    {
+      "label": "研究抽屉默认关闭",
+      "condition": true
+    },
+    {
+      "label": "研究候选进入controller状态",
+      "condition": true
+    },
+    {
+      "label": "研究候选保存后抽屉关闭",
+      "condition": true
+    },
+    {
+      "label": "课前区域:下一节课",
+      "condition": true
+    },
+    {
+      "label": "课前区域:今天的课",
+      "condition": true
+    },
+    {
+      "label": "课前区域:本周课程",
+      "condition": true
+    },
+    {
+      "label": "课前区域:最近完成",
+      "condition": true
+    },
+    {
+      "label": "课前区域:本学期课架",
+      "condition": true
+    },
+    {
+      "label": "无下一节课空状态",
+      "condition": true
+    },
+    {
+      "label": "课前搜索存在",
+      "condition": true
+    },
+    {
+      "label": "课前筛选存在",
+      "condition": true
+    },
+    {
+      "label": "置顶常用形成轻量工作区",
+      "condition": true
+    },
+    {
+      "label": "课前预览存在",
+      "condition": true
+    },
+    {
+      "label": "开始课堂进入现有M1",
+      "condition": true
+    },
+    {
+      "label": "M2班级身份映射到现有M1候选",
+      "condition": true
+    },
+    {
+      "label": "复用动作存在",
+      "condition": true
+    },
+    {
+      "label": "记录搜索存在",
+      "condition": true
+    },
+    {
+      "label": "记录组合筛选存在",
+      "condition": true
+    },
+    {
+      "label": "筛选清除存在",
+      "condition": true
+    },
+    {
+      "label": "记录默认待处理优先",
+      "condition": true
+    },
+    {
+      "label": "技术详情默认折叠",
+      "condition": true
+    },
+    {
+      "label": "完整日志默认折叠",
+      "condition": true
+    },
+    {
+      "label": "无教师质量评分",
+      "condition": true
+    },
+    {
+      "label": "跨班汇总不覆盖单班事实",
+      "condition": true
+    },
+    {
+      "label": "研究抽屉按需出现",
+      "condition": true
+    },
+    {
+      "label": "研究候选可查看编辑取消",
+      "condition": true
+    },
+    {
+      "label": "研究室仍HOLD",
+      "condition": true
+    },
+    {
+      "label": "课时和大单元归档入口",
+      "condition": true
+    },
+    {
+      "label": "部分归档语义明确",
+      "condition": true
+    },
+    {
+      "label": "M1六类宿主仍保留",
+      "condition": true
+    },
+    {
+      "label": "M1统一fixture适配器仍保留",
+      "condition": true
+    },
+    {
+      "label": "M2.1研究抽屉样式存在",
+      "condition": true
+    },
+    {
+      "label": "M2.1筛选抽屉样式存在",
+      "condition": true
+    },
+    {
+      "label": "1366布局规则存在",
+      "condition": true
+    },
+    {
+      "label": "1920布局规则存在",
+      "condition": true
+    },
+    {
+      "label": "禁止运行时依赖:WebSocket",
+      "condition": true
+    },
+    {
+      "label": "禁止运行时依赖:EventSource",
+      "condition": true
+    },
+    {
+      "label": "禁止运行时依赖:fetch(",
+      "condition": true
+    },
+    {
+      "label": "禁止运行时依赖:navigator.mediaDevices",
+      "condition": true
+    },
+    {
+      "label": "禁止运行时依赖:localStorage",
+      "condition": true
+    },
+    {
+      "label": "禁止运行时依赖:indexedDB",
+      "condition": true
+    },
+    {
+      "label": "未新增研究室路由",
+      "condition": true
+    },
+    {
+      "label": "三项一级信息架构不变",
+      "condition": true
+    }
+  ],
+  "boundaries": {
+    "realSession": "HOLD",
+    "database": "HOLD",
+    "model": "HOLD",
+    "researchRoomPage": "HOLD",
+    "formalWriteback": "HOLD"
+  }
+}

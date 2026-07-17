@@ -1,0 +1,94 @@
+{
+  "fixtureIdentity": {
+    "fixtureId": "color-gradient-teacher-work-assistant-r0.2",
+    "status": "SIMULATED_ONLY",
+    "containsRealTeacherOrStudentData": false,
+    "runtimeEffect": "NONE_READONLY_FIXTURE",
+    "hasClassroomSession": false,
+    "hasDatabase": false,
+    "hasModelCall": false,
+    "hasResearchProjection": false,
+    "hasFormalWriteback": false
+  },
+  "sourceClass": {
+    "occurrenceId": "occurrence-gradient-synthetic-grade3-class2",
+    "classLabel": "三年级（2）班",
+    "lessonTitle": "色彩的明度渐变",
+    "scheduleLabel": "今天 · 09:40 · 第3节",
+    "factTitle": "示范环节比计划多用5分钟",
+    "factDetail": "示范原定6分钟，实际用了11分钟；教师回看了示范画面，并留下一次“学生没跟上”标记。",
+    "firstPassAssessment": "学生可能没有看清中间色怎样逐步加入，但材料操作或临时课堂安排也可能影响节奏。"
+  },
+  "targetClass": {
+    "occurrenceId": "occurrence-gradient-synthetic-grade3-class3",
+    "classLabel": "三年级（3）班",
+    "lessonTitle": "色彩的明度渐变",
+    "scheduleLabel": "今天 · 14:20 · 第7节",
+    "contextDifference": "当前班已有基础调色经验，且材料已经提前分装。",
+    "preparationStatus": "课堂包已准备",
+    "previewSummary": "10页课堂画面 · 4个教学环节 · 40分钟"
+  },
+  "todayLessons": [
+    {
+      "time": "08:30",
+      "period": "第2节",
+      "classLabel": "三年级（1）班",
+      "lessonTitle": "色彩的明度渐变",
+      "status": "已上"
+    },
+    {
+      "time": "09:40",
+      "period": "第3节",
+      "classLabel": "三年级（2）班",
+      "lessonTitle": "色彩的明度渐变",
+      "status": "刚结束"
+    },
+    {
+      "time": "14:20",
+      "period": "第7节",
+      "classLabel": "三年级（3）班",
+      "lessonTitle": "色彩的明度渐变",
+      "status": "下一节"
+    }
+  ],
+  "courseDirectory": [
+    {
+      "unit": "色彩基础",
+      "lessonTitle": "色彩的明度渐变",
+      "grade": "三年级",
+      "status": "3个班可上"
+    },
+    {
+      "unit": "造型与表现",
+      "lessonTitle": "有节奏的美感",
+      "grade": "三年级",
+      "status": "2个班可上"
+    },
+    {
+      "unit": "纸的想象",
+      "lessonTitle": "纸片插接",
+      "grade": "四年级",
+      "status": "待确认"
+    },
+    {
+      "unit": "传统工艺",
+      "lessonTitle": "穿编的乐趣",
+      "grade": "四年级",
+      "status": "备课中"
+    }
+  ],
+  "oneLineClassroomNote": "示范后半段学生开始主动说出中间色。",
+  "record": {
+    "teacherJudgment": "学生没看懂关键一步",
+    "teacherDecision": "下一班试用一张“缺少中间色—加入中间色”的对比画面",
+    "fullLog": [
+      "09:58 进入示范环节“逐次加白”",
+      "10:04 达到原定6分钟",
+      "10:07 回看示范画面",
+      "10:08 教师标记“学生没跟上”",
+      "10:09 示范环节结束，共用11分钟",
+      "10:31 小教完成只读初步整理",
+      "10:34 教师确认现实原因并记录决定"
+    ]
+  }
+}

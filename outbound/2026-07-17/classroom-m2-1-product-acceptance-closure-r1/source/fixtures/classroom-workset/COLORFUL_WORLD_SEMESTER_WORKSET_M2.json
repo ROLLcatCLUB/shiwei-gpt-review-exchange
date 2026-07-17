@@ -1,0 +1,18 @@
+{
+  "fixtureId": "colorful-world-semester-classroom-workset-m2",
+  "status": "SIMULATED_ONLY",
+  "containsRealTeacherOrStudentData": false,
+  "referenceNow": "2026-05-11T13:45:00+08:00",
+  "semester": "2025—2026学年第二学期",
+  "unit": "多彩的世界",
+  "lessons": ["色彩的渐变", "渐变的节奏", "多彩的生活"],
+  "classes": ["三（1）班", "三（2）班", "三（3）班", "三（4）班", "三（5）班"],
+  "runtime": {
+    "realClassroomSession": false,
+    "database": false,
+    "model": false,
+    "researchRoomPage": false,
+    "formalWriteback": false,
+    "persistence": "MEMORY_RESET_ON_REFRESH"
+  }
+}

@@ -9,7 +9,10 @@
     "receiptCommit": "c7a720df633ce838be9c0ccc22fd6fb00f8b34dc",
     "sourcePointerCommit": "e8237f9ead1c435b4c5ad0948ffee85db570c236",
     "fixedResponseCommit": "d2cfed93c4a5357bc6feab543fd94fd0a7464dca",
-    "implementationStarted": false
+    "implementationStarted": true,
+    "implementationCompleted": true,
+    "outboundTaskId": "classroom-m2-1-product-acceptance-closure-r1",
+    "outboundStatus": "LOCAL_VERIFIED_AWAITING_PUBLICATION"
   },
   "updatedAt": "2026-07-18T00:30:00+08:00"
 }

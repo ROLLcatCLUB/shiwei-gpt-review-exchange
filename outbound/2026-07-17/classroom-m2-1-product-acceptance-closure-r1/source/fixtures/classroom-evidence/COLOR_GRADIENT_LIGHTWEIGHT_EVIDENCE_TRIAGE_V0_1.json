@@ -1,0 +1,112 @@
+{
+  "fixtureIdentity": {
+    "fixtureId": "color-gradient-lightweight-evidence-triage-v0.1",
+    "status": "SIMULATED_ONLY",
+    "containsRealTeacherOrStudentData": false
+  },
+  "clearSignal": {
+    "occurrenceId": "occurrence-gradient-synthetic-clear",
+    "facts": [
+      {
+        "factId": "fact-clear-duration",
+        "occurrenceId": "occurrence-gradient-synthetic-clear",
+        "eventType": "DURATION_RECORDED",
+        "happenedAtOffsetSeconds": 1260,
+        "episodeId": "E04",
+        "bindingId": "B007",
+        "screenId": "S07",
+        "activityKind": "DEMONSTRATION",
+        "plannedDurationSeconds": 360,
+        "actualDurationSeconds": 660,
+        "source": "DETERMINISTIC_FIXTURE"
+      },
+      {
+        "factId": "fact-clear-revisit",
+        "occurrenceId": "occurrence-gradient-synthetic-clear",
+        "eventType": "BINDING_REVISITED",
+        "happenedAtOffsetSeconds": 1300,
+        "episodeId": "E04",
+        "bindingId": "B007",
+        "screenId": "S07",
+        "activityKind": "DEMONSTRATION",
+        "source": "DETERMINISTIC_FIXTURE"
+      },
+      {
+        "factId": "fact-clear-mark",
+        "occurrenceId": "occurrence-gradient-synthetic-clear",
+        "eventType": "QUICK_MARK_ADDED",
+        "happenedAtOffsetSeconds": 1320,
+        "episodeId": "E04",
+        "bindingId": "B007",
+        "screenId": "S07",
+        "activityKind": "DEMONSTRATION",
+        "quickMark": "NOT_UNDERSTOOD",
+        "source": "SIMULATED_TEACHER_ACTION"
+      }
+    ],
+    "priorSimilarSignals": []
+  },
+  "normalClass": {
+    "occurrenceId": "occurrence-gradient-synthetic-normal",
+    "facts": [
+      {
+        "factId": "fact-normal-duration",
+        "occurrenceId": "occurrence-gradient-synthetic-normal",
+        "eventType": "DURATION_RECORDED",
+        "happenedAtOffsetSeconds": 720,
+        "episodeId": "E02",
+        "bindingId": "B003",
+        "screenId": "S03",
+        "activityKind": "OBSERVATION",
+        "plannedDurationSeconds": 300,
+        "actualDurationSeconds": 320,
+        "source": "DETERMINISTIC_FIXTURE"
+      }
+    ],
+    "priorSimilarSignals": []
+  },
+  "singleWeakSignal": {
+    "occurrenceId": "occurrence-gradient-synthetic-weak-1",
+    "facts": [
+      {
+        "factId": "fact-weak-1-duration",
+        "occurrenceId": "occurrence-gradient-synthetic-weak-1",
+        "eventType": "DURATION_RECORDED",
+        "happenedAtOffsetSeconds": 1200,
+        "episodeId": "E04",
+        "bindingId": "B007",
+        "screenId": "S07",
+        "activityKind": "DEMONSTRATION",
+        "plannedDurationSeconds": 360,
+        "actualDurationSeconds": 600,
+        "source": "DETERMINISTIC_FIXTURE"
+      }
+    ],
+    "priorSimilarSignals": []
+  },
+  "repeatedWeakSignal": {
+    "occurrenceId": "occurrence-gradient-synthetic-weak-2",
+    "facts": [
+      {
+        "factId": "fact-weak-2-duration",
+        "occurrenceId": "occurrence-gradient-synthetic-weak-2",
+        "eventType": "DURATION_RECORDED",
+        "happenedAtOffsetSeconds": 1220,
+        "episodeId": "E04",
+        "bindingId": "B007",
+        "screenId": "S07",
+        "activityKind": "DEMONSTRATION",
+        "plannedDurationSeconds": 360,
+        "actualDurationSeconds": 610,
+        "source": "DETERMINISTIC_FIXTURE"
+      }
+    ],
+    "priorSimilarSignals": [
+      {
+        "repeatKey": "DEMONSTRATION_OVERTIME_AND_REVISIT",
+        "occurrenceId": "occurrence-gradient-synthetic-weak-1",
+        "teacherResponse": "UNCERTAIN"
+      }
+    ]
+  }
+}

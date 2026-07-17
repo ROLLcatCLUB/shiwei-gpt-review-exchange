@@ -1,0 +1,481 @@
+{
+  "package": "SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_CUMULATIVE_PRIVATE_REVIEW_20260717.zip",
+  "task": "CLASSROOM_M2_1_PRODUCT_SEMANTICS_RESEARCH_REFERENCE_STATE_HIERARCHICAL_ARCHIVE_AND_TEACHER_DENSITY_CLOSURE",
+  "date": "2026-07-17",
+  "siteContentCommit": "9b104a2042e15d3963dde247b80a247e02242d5f",
+  "governanceContentCommit": "76bb22aa4f32f2d6add3ccfd14d16ac18ced1bf2",
+  "fixedInboundResponseCommit": "d2cfed93c4a5357bc6feab543fd94fd0a7464dca",
+  "stableBaseTag": "classroom-dynamic-render-m1-accepted-20260717",
+  "payload": [
+    {
+      "path": "ACCEPTANCE_MATRIX.md",
+      "sha256": "965852bd3f82ba2340e8f437674a2f4ab540fe335a80062c47d803b95068a605",
+      "bytes": 1323
+    },
+    {
+      "path": "build_review_package.py",
+      "sha256": "056c91a1b92045a31c9acb55cad9cad3d98c6320518eb664a314c438adda9bfd",
+      "bytes": 1959
+    },
+    {
+      "path": "governance/ACTION_ITEMS.md",
+      "sha256": "6d2536a3df065394c0a61aefd0efef087e7c07843564c41d54b9ded93ca79a50",
+      "bytes": 648
+    },
+    {
+      "path": "governance/ADOPTION_DECISION.md",
+      "sha256": "215f82b5a64519995593a6f8d274d94c4524cc081cf6db8ab37f460f663f2aca",
+      "bytes": 686
+    },
+    {
+      "path": "governance/CLASSROOM_M2_SEMESTER_WORKSET.md",
+      "sha256": "a8d07facf519e362b0eb158077b2d36b3965f1aac1a303e2f4f8c50d517cb8f7",
+      "bytes": 2147
+    },
+    {
+      "path": "governance/D-20260717-CLASSROOM-M2-1-PRODUCT-AND-STATE-CLOSURE.md",
+      "sha256": "ac2381b81bdff61e4ade20ddb29bd26ded1950bd714d5cc2c8aa0bc09324103d",
+      "bytes": 996
+    },
+    {
+      "path": "governance/D-20260717-CLASSROOM-M2-SEMESTER-WORKSET-AND-REFERENCE-HANDOFF.md",
+      "sha256": "9146292a1739726df44047aea7cab531f97bacba509e61f832c7a851e627e292",
+      "bytes": 1514
+    },
+    {
+      "path": "governance/ORIGINAL_REVIEW.md",
+      "sha256": "d9d21f251c6510c2c6502d116c8c77c3f595f360869da7968ef13efb86dd55d7",
+      "bytes": 986
+    },
+    {
+      "path": "governance/REVIEW_SUMMARY.md",
+      "sha256": "4b1ec0b0531f7cbe6dc812fc60837bf027772a2178c82a070228c0f7fd2254b5",
+      "bytes": 433
+    },
+    {
+      "path": "README_FOR_GPT_REVIEW.md",
+      "sha256": "4bf0fdfa52e21ce3d6644aff69de05e168ddaa8f84ecdcc273ce9fedf69e55b3",
+      "bytes": 2109
+    },
+    {
+      "path": "reports/2026-07-17-classroom-m2-semester-workset.md",
+      "sha256": "268577d5c12fb061e1d9b2634fd724c7b18f637905f5dd659c199fec21293ac5",
+      "bytes": 2773
+    },
+    {
+      "path": "reports/2026-07-17_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_HANDOFF.md",
+      "sha256": "465645576a63db2b957656888f1661d037ec8620789ea4493f298e9640c9e08b",
+      "bytes": 2849
+    },
+    {
+      "path": "reports/2026-07-17_CLASSROOM_M2_SEMESTER_WORKSET_HANDOFF.md",
+      "sha256": "4c1993bf6fe92e27a6fec285060b457a3521caac2d53e9f3a60d5840899a57e3",
+      "bytes": 1883
+    },
+    {
+      "path": "reports/ADR-0003-classroom-semester-workset-session-package-and-reference-only-research-handoff.md",
+      "sha256": "88483cf51bf55ab4b5cc7b2e2c8c9565994d5a1e738dfe6e271bf5a467670ee3",
+      "bytes": 1890
+    },
+    {
+      "path": "reports/BROWSER_CLICK_THROUGH_REPORT.md",
+      "sha256": "681a0b2fdc5e323b04c2cab23333338b2fbba3a3bc68ea9cacd986d19da6e60c",
+      "bytes": 728
+    },
+    {
+      "path": "reports/CLASSROOM_M2_SEMESTER_WORKSET_VALIDATION_REPORT.json",
+      "sha256": "7236c71ad71969213fa3c32375e056b95bddf7d8d374f08674c68f48c1c96ec0",
+      "bytes": 6362
+    },
+    {
+      "path": "reports/CURRENT_MILESTONE.md",
+      "sha256": "595a11cc43f6a474ef17803609543b4967a33bc560c841af59efbfde7b652f7a",
+      "bytes": 2256
+    },
+    {
+      "path": "reports/ENGINEERING_GATE_REPORT.md",
+      "sha256": "f98f1f4760a8929c29bcd80fa1f09d52b3f9ef2eabe835ecfac626ab0e6e8183",
+      "bytes": 414
+    },
+    {
+      "path": "reports/GITHUB_INBOUND_RECEIPT.md",
+      "sha256": "41f512826d99bfe5f4caa55c2a9d6a9035bfec99885737173577e6d62c48c34c",
+      "bytes": 539
+    },
+    {
+      "path": "reports/PROJECT_STATE.md",
+      "sha256": "b060adb23fc298dd86a0f0a6c7ca948eba6f617c24f345828a191d46e9757e41",
+      "bytes": 2319
+    },
+    {
+      "path": "reports/RESPONSIVE_LAYOUT_EVIDENCE.json",
+      "sha256": "3c1dccc54486337a28300f81fd0e524332545894a79c43bba5c9415c26b4b909",
+      "bytes": 639
+    },
+    {
+      "path": "reports/RESPONSIVE_LAYOUT_REPORT.md",
+      "sha256": "9dfe24c14f90b734fd50ee2a06d417d14418a2913489667aec366f66efdb36bd",
+      "bytes": 440
+    },
+    {
+      "path": "screenshots/01_preparation_default_1440x900.jpg",
+      "sha256": "2f8f9b1c021bd9897f6a05560d7552d7d7e43c2758f8e2b989234362bb08ff18",
+      "bytes": 72107
+    },
+    {
+      "path": "screenshots/02_preparation_filter_drawer_1440x900.jpg",
+      "sha256": "6261edb7f1df7a386e28cd931e2cc65ab6c515f55b390e7af0b15ce612b8e895",
+      "bytes": 101268
+    },
+    {
+      "path": "screenshots/03_preparation_reminder_filter_1440x900.jpg",
+      "sha256": "4fcbb45c4fd6c08a1e1652a56f786ba25647d9d394c7bf396ff7b3c15a7dd93e",
+      "bytes": 99726
+    },
+    {
+      "path": "screenshots/04_preparation_search_result_1440x900.jpg",
+      "sha256": "545f7893f7d5df4ed98e3b8160bdaed871b21d1bf4001b339fbc328d505410a1",
+      "bytes": 95878
+    },
+    {
+      "path": "screenshots/05_preparation_week_expanded_1440x900.jpg",
+      "sha256": "9a2c52c48fe74358193083a32f5dff4443c5c24c749df9736d34d4996c24c4d4",
+      "bytes": 109712
+    },
+    {
+      "path": "screenshots/06_preparation_semester_expanded_1440x900.jpg",
+      "sha256": "e193bb459d938ba98a1521f91104501e40597812b696cf543172c8293e553c63",
+      "bytes": 106874
+    },
+    {
+      "path": "screenshots/07_preparation_unit_expanded_1440x900.jpg",
+      "sha256": "162339d22745a21e6d5ffee5ff5a35879890054e4c558ccf8211afb930988d1a",
+      "bytes": 108932
+    },
+    {
+      "path": "screenshots/08_preparation_lesson_actions_1440x900.jpg",
+      "sha256": "e6bd836eeaba9bb2ce4473968eacb23e075f4d040532894070823cde7b1ed5b1",
+      "bytes": 106090
+    },
+    {
+      "path": "screenshots/09_reuse_schedule_dialog_1440x900.jpg",
+      "sha256": "34e7cc072c6695a90bb1b635d14de27eed178dbc0431c8722911e89dc50ce6b9",
+      "bytes": 90510
+    },
+    {
+      "path": "screenshots/10_reuse_schedule_created_1440x900.jpg",
+      "sha256": "aca069c40c477e4eec5c56c6ef9cd5722955f5251a34478f02db81858c7a2dcc",
+      "bytes": 100752
+    },
+    {
+      "path": "screenshots/11_current_classroom_1440x900.jpg",
+      "sha256": "5aa82a0fd801ad93543326aae55f73ca846d8180da275e43de4d469aca36bf21",
+      "bytes": 103587
+    },
+    {
+      "path": "screenshots/12_record_default_1440x900.jpg",
+      "sha256": "8a6836cdb17e4f61b2b56e31995fd7d020c45399095642db2601c25794041832",
+      "bytes": 105866
+    },
+    {
+      "path": "screenshots/13_record_filter_drawer_1440x900.jpg",
+      "sha256": "259898e50973454abf65442561cfc76fd66a8f9b7057162acf86809ddcf9e93b",
+      "bytes": 105582
+    },
+    {
+      "path": "screenshots/14_record_search_result_1440x900.jpg",
+      "sha256": "16fb90c75987fadcc6541cdbbd9f7f3f503d7f0adc5d224c26742ffdc865045f",
+      "bytes": 104347
+    },
+    {
+      "path": "screenshots/15_record_technical_details_expanded_1440x900.jpg",
+      "sha256": "c780e8839191994413a38d300881add4865fc40ca437e93587e5df9f9b8fca18",
+      "bytes": 111199
+    },
+    {
+      "path": "screenshots/16_record_hierarchy_expanded_1440x900.jpg",
+      "sha256": "ca2bc66cf728becf63f8c66b3f92cb5723b0043f0063020f23f3d7e7ba4a21e0",
+      "bytes": 96393
+    },
+    {
+      "path": "screenshots/17_cross_class_summary_1440x900.jpg",
+      "sha256": "d3003c18ab829c09b7978cb3957580bcaf1ce200b9120825997fb9690132ef5f",
+      "bytes": 79788
+    },
+    {
+      "path": "screenshots/18_research_drawer_1440x900.jpg",
+      "sha256": "8df0b00a84954140812ba23bfd11dc76b62c8058c8f3f17ca01bd5de0c79cddf",
+      "bytes": 109630
+    },
+    {
+      "path": "screenshots/19_research_candidate_saved_1440x900.jpg",
+      "sha256": "96f8aa35255dacafc82e551ede8ab3a26788fda395e3547d7e1a501c4cd4017d",
+      "bytes": 103387
+    },
+    {
+      "path": "screenshots/20_lesson_archive_dialog_1440x900.jpg",
+      "sha256": "51a80a28ff4b4d5f5dc3d61cc3025d3d984e140217c82d1769552a4ea77e2303",
+      "bytes": 93017
+    },
+    {
+      "path": "screenshots/21_lesson_archive_applied_1440x900.jpg",
+      "sha256": "1445630bc3395802e72220a566db90452dfef7fa20141378ba7f317694a21a36",
+      "bytes": 91368
+    },
+    {
+      "path": "screenshots/22_unit_archive_partial_dialog_1440x900.jpg",
+      "sha256": "103353840ad5dea95268ea0ad961fad12dda13a40ba28150796d85c21d1df6a9",
+      "bytes": 90081
+    },
+    {
+      "path": "screenshots/23_preparation_1366x768.jpg",
+      "sha256": "dae4962c8a72f5609244ae482759a0d8382f376ac220c346c7fe16d74b40028b",
+      "bytes": 90773
+    },
+    {
+      "path": "screenshots/24_record_1366x768.jpg",
+      "sha256": "7221d85952ffeed6de6c4ddce9ff03bc49a81899f62d29dedb1fc13a0d8ceefc",
+      "bytes": 71932
+    },
+    {
+      "path": "screenshots/25_research_drawer_1366x768.jpg",
+      "sha256": "9df2acc47f64b9ae5ab7784d7d8fab66b12647acc6c043d8758b82acd22eff48",
+      "bytes": 97698
+    },
+    {
+      "path": "screenshots/26_preparation_1920x1080.jpg",
+      "sha256": "99d42f834684c723977b8f7207a251c981f3f0601a7211dad972fc3dadc77c58",
+      "bytes": 129951
+    },
+    {
+      "path": "screenshots/27_record_1920x1080.jpg",
+      "sha256": "ed0ed16cc09458c4b53b94261cda0a2f00e3606b28acf41e24c7027af8a484e8",
+      "bytes": 110044
+    },
+    {
+      "path": "source/app/shell-v1/classroom/adapters/classroom-web-fixture-adapter.ts",
+      "sha256": "e2a10f602dc4b5805b5de4948c00a4e3dbf6e252550936c6a29e6efa782fed33",
+      "bytes": 15413
+    },
+    {
+      "path": "source/app/shell-v1/classroom/classroom-candidate-fixture.ts",
+      "sha256": "0f744a66630df0b2a6cea25fa84d1fd48d1804ed58d69ce5bcdaa0a4d4b79bc3",
+      "bytes": 13975
+    },
+    {
+      "path": "source/app/shell-v1/classroom/classroom-contracts.ts",
+      "sha256": "5a6065c9e8328c301baa5739d0527b7f3c93b25852f05591d5881f5a3943d20a",
+      "bytes": 6804
+    },
+    {
+      "path": "source/app/shell-v1/classroom/classroom-package-registry.ts",
+      "sha256": "cf5165a57bbb583ffc2b983139bd5dad447fcd4e285e53b9b69bcd7558536c51",
+      "bytes": 9784
+    },
+    {
+      "path": "source/app/shell-v1/classroom/classroom-preview-fixture.json",
+      "sha256": "c148e6162a468abbeb752dcef5c840a7e3fa589d2fc55b4d36b34860bce9e85b",
+      "bytes": 2285
+    },
+    {
+      "path": "source/app/shell-v1/classroom/classroom-preview-fixture.ts",
+      "sha256": "71d11353734fb11f3f22b5ce96826bc8d7c150874d57652a41693cc005b2743a",
+      "bytes": 644
+    },
+    {
+      "path": "source/app/shell-v1/classroom/classroom-surface.tsx",
+      "sha256": "c481a33ee72014b69df477afbc55cdaf5e6896d7554f00b75bc0d276d72cb619",
+      "bytes": 57313
+    },
+    {
+      "path": "source/app/shell-v1/classroom/classroom-visual-fixture.ts",
+      "sha256": "2026de1d96a89bfd5a18d528bb11a59498a6d6f9864e1dd2c54303b51f6f2f31",
+      "bytes": 1446
+    },
+    {
+      "path": "source/app/shell-v1/classroom/classroom-workspace-state.ts",
+      "sha256": "7fb0fddd1bc90ef1f338557061b3eb44eaf6f21fa82bdb2e625c6e57b667324d",
+      "bytes": 12845
+    },
+    {
+      "path": "source/app/shell-v1/classroom/classroom.css",
+      "sha256": "093e0c3a47e3cc2c5aaa148060e2676ded91517126a985859109708dfd3a96f0",
+      "bytes": 108331
+    },
+    {
+      "path": "source/app/shell-v1/classroom/components/classroom-live-components.tsx",
+      "sha256": "7771f97f479033e8068439835409c9290fa54e28b19512a21bdb9855bcf0ea9e",
+      "bytes": 15570
+    },
+    {
+      "path": "source/app/shell-v1/classroom/components/feedback/classroom-action-receipt.tsx",
+      "sha256": "ee3517b9694fa36d3944bede8d91975b621e7ac52a93d34910c85c3134b034e6",
+      "bytes": 1252
+    },
+    {
+      "path": "source/app/shell-v1/classroom/components/internal/classroom-internal-components.tsx",
+      "sha256": "9206b18d72ec498f5e0f13e40596ea87ba91f525252c5ac8d9869c56ab363b95",
+      "bytes": 4755
+    },
+    {
+      "path": "source/app/shell-v1/classroom/components/semester-classroom-workset-panels.tsx",
+      "sha256": "61ba40914b9d605305f850ce4b59f7f62201f0ec7e863b2597b758924e021744",
+      "bytes": 40920
+    },
+    {
+      "path": "source/app/shell-v1/classroom/composition/classroom-component-plan.ts",
+      "sha256": "a00ab5373ef10ff9c1e98540620613614b442c434090fc1efa65bb8d0ab635ea",
+      "bytes": 6360
+    },
+    {
+      "path": "source/app/shell-v1/classroom/composition/classroom-composition-blueprint.ts",
+      "sha256": "7fc389f84ad9cbcd2273a0dd5b04e7b95edf334b1bb690102e8f574fd466d9a3",
+      "bytes": 1390
+    },
+    {
+      "path": "source/app/shell-v1/classroom/composition/classroom-context-reminder-registry.ts",
+      "sha256": "cf5e26259add16a375d1998c82163d8a020d2a87e99fa53262c88d402d3a8e1d",
+      "bytes": 5104
+    },
+    {
+      "path": "source/app/shell-v1/classroom/composition/color-gradient-classroom-composition-blueprint.ts",
+      "sha256": "54bd381a010ce30181f25af595ffbdd0d895637939026048f29a5cc9ad95dd11",
+      "bytes": 2112
+    },
+    {
+      "path": "source/app/shell-v1/classroom/hosts/classroom-component-hosts.tsx",
+      "sha256": "e751b5dc459a5a67b6566642da9336861e269a63c7bf79084c13035ad5fb34fa",
+      "bytes": 4641
+    },
+    {
+      "path": "source/app/shell-v1/classroom/semester-classroom-workset-fixture.ts",
+      "sha256": "468d23254e7eeb4225aab55a15b89487c4b2e9fdab2c25bb08b85ffc917fd92d",
+      "bytes": 15189
+    },
+    {
+      "path": "source/app/shell-v1/classroom/teacher-work-assistant-review-fixture.ts",
+      "sha256": "5e41331e43118a9c380dab75b9d2c7032582675bdfd4b81b3d0fa9c07b244adb",
+      "bytes": 6454
+    },
+    {
+      "path": "source/app/shell-v1/classroom/teacher-work-assistant-review.tsx",
+      "sha256": "78cb1247414fddaa587c94b849df289c5a435ce89477e8f5dcd3a88191b4e08d",
+      "bytes": 22477
+    },
+    {
+      "path": "source/app/shell-v1/classroom/use-classroom-workspace-controller.ts",
+      "sha256": "6be18f3cc3575cb68423a2bbe9aa881c6048640e1698f7d00f1f90e7ffd7d674",
+      "bytes": 5802
+    },
+    {
+      "path": "source/app/shell-v1/page.tsx",
+      "sha256": "ec356f26fca084f6cdddf8f4f63922933d727b98bee4463b2c0f2512db23b708",
+      "bytes": 218824
+    },
+    {
+      "path": "source/CLASSROOM_M2_SEMESTER_WORKSET_VALIDATION_REPORT.json",
+      "sha256": "c69980cb78ce026908110f57af6c83525f206646062e82be8103f497b19961a6",
+      "bytes": 6362
+    },
+    {
+      "path": "source/domain/classroom-assistant/classroom-agent-capability-registry.ts",
+      "sha256": "e86ca4b6d8e5e99ea36b3ef802afca62adfa5d8d7925c5c6c0c83d93d0f379fc",
+      "bytes": 58588
+    },
+    {
+      "path": "source/domain/classroom-assistant/teacher-work-assistant.ts",
+      "sha256": "3cf034c738fd66b9bc876f550bec58ea80c34398b85d3c8c7de047c69b88fa17",
+      "bytes": 17468
+    },
+    {
+      "path": "source/domain/classroom-components/classroom-component-registry.ts",
+      "sha256": "af297f56aade2419297c97f1b838a8318de8cfcd223f060c132ea627e4a2b53e",
+      "bytes": 23732
+    },
+    {
+      "path": "source/domain/classroom-evidence/lightweight-evidence-triage.ts",
+      "sha256": "cd1b4bd2f64785d341108f0bf1b2e037d803b47d36f9f936a2d6fe6d0b24206e",
+      "bytes": 16528
+    },
+    {
+      "path": "source/domain/classroom-workset/semester-classroom-workset.ts",
+      "sha256": "e2a6ac5effb74762eaacc7fe2050580277173ee2dec1ce87f7da486868a79596",
+      "bytes": 20192
+    },
+    {
+      "path": "source/fixtures/classroom-assistant/COLOR_GRADIENT_TEACHER_WORK_ASSISTANT_R0_2.json",
+      "sha256": "405eddc6db48180034de98c719e450596b08d25ed6d9c25ab142feacaf9a67e6",
+      "bytes": 3146
+    },
+    {
+      "path": "source/fixtures/classroom-evidence/COLOR_GRADIENT_LIGHTWEIGHT_EVIDENCE_TRIAGE_V0_1.json",
+      "sha256": "c0d1f20a232ba3391ef0c99850d6dbcac11bba4692029f1df3f3809705b250d1",
+      "bytes": 3484
+    },
+    {
+      "path": "source/fixtures/classroom-workset/COLORFUL_WORLD_SEMESTER_WORKSET_M2.json",
+      "sha256": "a9c11c08e13bbf119a482d006dbb1e0983b16a332374241dd5de2f4b3c11191e",
+      "bytes": 640
+    },
+    {
+      "path": "source/package.json",
+      "sha256": "2c82d01c0b49f7f7d53fbef24f65a829c7dacd65b01baad42ed39fedaef686fc",
+      "bytes": 6877
+    },
+    {
+      "path": "source/scripts/validate-classroom-agent-assistant-capability-registry-r0.mjs",
+      "sha256": "03dbc87f5a516e1e6c4e33069dc3abb25bf917f0fe503470b19abd82625c3486",
+      "bytes": 13438
+    },
+    {
+      "path": "source/scripts/validate-classroom-dynamic-component-registry-r0.mjs",
+      "sha256": "5ecc274e2a8135049732a73afa293f50940f8e9373ce162cb28f21a4525b333d",
+      "bytes": 9574
+    },
+    {
+      "path": "source/scripts/validate-classroom-dynamic-render-m1.mjs",
+      "sha256": "3ac149bbbed617fa60137c31dce213b9a684a58334ccdb9f83bfb6670636e7d7",
+      "bytes": 8622
+    },
+    {
+      "path": "source/scripts/validate-classroom-m2-semester-workset.mjs",
+      "sha256": "5f46f0c471f5715f2fff6c716369f8393faea6c223c148154c186bbc9059a1dc",
+      "bytes": 11442
+    },
+    {
+      "path": "source/tests/classroom-agent-assistant-capability-registry-r0.test.mjs",
+      "sha256": "b2278b9ad6f3c7b053ca580769a319b5eb916f6627abbab9258d4914c05e37b9",
+      "bytes": 13383
+    },
+    {
+      "path": "source/tests/classroom-dynamic-component-registry-r0.test.mjs",
+      "sha256": "33dbf3235efb8d802c49719b6191eaa2b1dcbb7c708fd0b88a60c32d02b86b54",
+      "bytes": 7394
+    },
+    {
+      "path": "source/tests/classroom-dynamic-render-m1.test.mjs",
+      "sha256": "234cd6ecd22436addc0e02dc17bdbd97154d0e8c8d022b1890fdf31da3b716af",
+      "bytes": 16233
+    },
+    {
+      "path": "source/tests/classroom-m2-semester-workset-ui.test.mjs",
+      "sha256": "ed4b61590b2f8c8a6299a740abdca487649ac51324b968928d75892500e18dc7",
+      "bytes": 7659
+    },
+    {
+      "path": "source/tests/classroom-m2-semester-workset.test.mjs",
+      "sha256": "81ac230eb044656bcf4ff034f3f5690572ba642a7333a715d128b4e1351f0120",
+      "bytes": 12923
+    },
+    {
+      "path": "validate_review_package.py",
+      "sha256": "cc8951591af92b88f6214253ea68b78f2b1f7c66d6ca5d6980b74f720e3c8bf1",
+      "bytes": 7094
+    },
+    {
+      "path": "VALIDATION_SUMMARY.md",
+      "sha256": "931b4aaae80640d87f96fb85d13c91bb94024bca284965b3017d5dd6f9e4a175",
+      "bytes": 1334
+    }
+  ]
+}

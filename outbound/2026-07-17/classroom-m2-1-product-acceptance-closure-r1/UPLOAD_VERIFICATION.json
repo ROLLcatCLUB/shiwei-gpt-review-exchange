@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0",
+  "taskId": "classroom-m2-1-product-acceptance-closure-r1",
+  "repository": "ROLLcatCLUB/shiwei-gpt-review-exchange",
+  "branch": "main",
+  "reviewPackage": {
+    "path": "SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_CUMULATIVE_PRIVATE_REVIEW_20260717.zip",
+    "sha256": "062A9B34A456B16D74694B40DE8BD77C0ED2C97188A7B39F3BD74E610168D903",
+    "entries": 95,
+    "manifestPayload": 94
+  },
+  "localVerification": {
+    "pathSafety": "PASS",
+    "crc": "PASS",
+    "unicodeZipFileExtract": "PASS",
+    "manifest": "PASS",
+    "packageValidator": "165/165 PASS",
+    "m2_1Tests": "33/33 PASS",
+    "m2_1Validator": "73/73 PASS",
+    "forbiddenFiles": 0
+  },
+  "contentAnchors": {
+    "siteImplementation": "9b104a2042e15d3963dde247b80a247e02242d5f",
+    "siteReviewSource": "0307b2990632ba7cc61cbef4d430ca0a5a5225c4",
+    "governanceContent": "76bb22aa4f32f2d6add3ccfd14d16ac18ced1bf2",
+    "fixedInboundResponse": "d2cfed93c4a5357bc6feab543fd94fd0a7464dca"
+  },
+  "remoteVerification": "PERFORM_AFTER_CONTENT_COMMIT"
+}

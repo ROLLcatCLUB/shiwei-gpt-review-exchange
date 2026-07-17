@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0",
+  "route": "http://127.0.0.1:5183/shell-v1?room=classroom",
+  "exactViewportScreenshots": {
+    "1366x768": ["23_preparation_1366x768.jpg", "24_record_1366x768.jpg", "25_research_drawer_1366x768.jpg"],
+    "1440x900": ["01_preparation_default_1440x900.jpg", "11_current_classroom_1440x900.jpg", "12_record_default_1440x900.jpg", "18_research_drawer_1440x900.jpg", "22_unit_archive_partial_dialog_1440x900.jpg"],
+    "1920x1080": ["26_preparation_1920x1080.jpg", "27_record_1920x1080.jpg"]
+  },
+  "validScreenshotCount": 27,
+  "invalidScreenshotCount": 0,
+  "cleanBrowserConsoleErrors": 0,
+  "newPageCount": 0
+}

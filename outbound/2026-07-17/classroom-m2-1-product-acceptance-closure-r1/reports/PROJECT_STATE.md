@@ -1,0 +1,79 @@
+# 师维项目当前状态
+
+更新时间：2026-07-17  
+状态：`M1_STABLE_ACCEPTED / M2_1_IMPLEMENTED_VERIFIED_AWAITING_STABLE_MERGE_REVIEW`
+
+## 当前上位基线
+
+`SHIWEI_CORE_PRODUCT_PHILOSOPHY v1.0` 继续生效：师维接管杂务，但不接管教师。本轮没有修改理念正文。
+
+```text
+活动站点：D:\Documents\SmartEdu\shiwei-ai-workbench-site
+治理真源：D:\Documents\SmartEdu\shiwei-project-governance
+历史旧仓：D:\Documents\SmartEdu\xiaobei-core
+M2站点工作树：D:\sw\m2
+M2治理工作树：D:\sw\m2-gov
+```
+
+M1 已通过 Git merge 合入稳定线并建立 `classroom-dynamic-render-m1-accepted-20260717`。M2 从该 accepted 标签创建独立分支；当前尚未获得稳定合并授权。
+
+## 当前产品面
+
+唯一教室入口仍是 `/shell-v1?room=classroom`，一级结构仍为：
+
+```text
+课前准备
+当前课堂
+课堂记录
+```
+
+M2.1 在原页面内闭合本学期工作集：研究引用成为真实 fixture 状态并反向关联课堂包；研究编辑改为按需抽屉；技术身份默认折叠；学期与记录层级降低默认密度；置顶、常用、复用、开始课堂、确定性优先级、层级软归档和搜索筛选均具有实际状态结果。
+
+## 验证基线
+
+```text
+M2_1_SPECIAL_TESTS = 33/33 PASS
+M2_1_VALIDATOR = 73/73 PASS
+M1_REGRESSION = 20/20 PASS
+M1_VALIDATOR = 54/54 PASS
+FULL_SITE_TESTS = 275/275 PASS
+ESLINT = PASS
+PRODUCTION_BUILD = PASS
+BROWSER_CLICK_THROUGH = PASS
+BROWSER_CONSOLE_ERRORS = 0
+SCREENSHOTS = 27 VALID JPEG
+INVALID_SCREENSHOTS = 0
+RESPONSIVE_RUNTIME_LAYOUT = 1366 / 1440 / 1920 PASS
+NEW_PAGE_COUNT = 0
+THIRD_PARTY_INSTALL_COUNT = 0
+```
+
+## 当前有效边界
+
+```text
+M1_STABLE = ACCEPTED
+M2_1_FEATURE = IMPLEMENTED_VERIFIED_AWAITING_STABLE_MERGE_REVIEW
+M2_STABLE_MERGE = NOT_AUTHORIZED
+M3 = NOT_AUTHORIZED
+
+REAL_CLASSROOM_SESSION = HOLD
+DATABASE = HOLD
+MODEL = HOLD
+VOICE = HOLD
+REAL_STUDENT_CONNECTION = HOLD
+ELECTRON = HOLD
+WEBSOCKET = HOLD
+RESEARCH_ROOM_PAGE = HOLD
+AUTOMATIC_RESEARCH_ANALYSIS = HOLD
+FORMAL_EVALUATION = HOLD
+FORMAL_WRITEBACK = HOLD
+DISK_ARCHIVE = HOLD
+```
+
+累计审核包完成后停止，等待教师/GPT审核。
+
+```text
+REVIEW_ZIP = THIS_CUMULATIVE_REVIEW_PACKAGE
+REVIEW_SHA256 = SEE_ADJACENT_SHA256_AND_GITHUB_OUTBOUND_MANIFEST
+CLEAN_EXTRACT_RESULT = RECORDED_AFTER_FINAL_ZIP_BUILD
+```

@@ -1,0 +1,92 @@
+{
+  "fixtureOnly": true,
+  "notClassroomActualRecord": true,
+  "notPersisted": true,
+  "fixtureLabel": "静态课堂预演数据",
+  "classroom": {
+    "classId": "class_3_5_preview",
+    "classLabel": "三（5）班",
+    "enrolled": 42,
+    "present": 40,
+    "connected": 40
+  },
+  "session": {
+    "sessionId": "preview:color-gradient:class-3-5:r1",
+    "mode": "PREVIEW",
+    "currentBindingId": "B003",
+    "elapsedSeconds": 360
+  },
+  "progress": {
+    "completed": 32,
+    "inProgress": 5,
+    "notResponded": 3
+  },
+  "supportFlags": {
+    "needsHelp": 3,
+    "showcaseEligible": 4
+  },
+  "supportStudents": [
+    {
+      "studentId": "student_preview_01",
+      "displayName": "张宇辰",
+      "reason": "渐变过渡不自然"
+    },
+    {
+      "studentId": "student_preview_02",
+      "displayName": "刘晨曦",
+      "reason": "还没有指出画面证据"
+    },
+    {
+      "studentId": "student_preview_03",
+      "displayName": "林悦",
+      "reason": "需要重新比较中间色"
+    }
+  ],
+  "randomCandidates": [
+    "李欣怡",
+    "王梓轩",
+    "陈思涵",
+    "张宇辰",
+    "刘子墨",
+    "周子墨"
+  ],
+  "recentEvents": [
+    {
+      "eventId": "event_01",
+      "timeLabel": "10:16",
+      "studentLabel": "陈思涵",
+      "action": "提交了观察回答",
+      "tone": "POSITIVE"
+    },
+    {
+      "eventId": "event_02",
+      "timeLabel": "10:15",
+      "studentLabel": "赵一诺",
+      "action": "指出了颜色变化方向",
+      "tone": "POSITIVE"
+    },
+    {
+      "eventId": "event_03",
+      "timeLabel": "10:14",
+      "studentLabel": "刘晨曦",
+      "action": "请求教师帮助",
+      "tone": "ATTENTION"
+    },
+    {
+      "eventId": "event_04",
+      "timeLabel": "10:13",
+      "studentLabel": "周子墨",
+      "action": "完成了第一次比较",
+      "tone": "DEFAULT"
+    }
+  ],
+  "xiaojiaoCandidate": {
+    "title": "多数学生已经发现颜色在慢慢变化",
+    "judgement": "当前困难主要集中在把视觉感受指回具体颜色证据，而不是识记“渐变”这个名称。",
+    "suggestions": [
+      "邀请一位学生在大屏上指出中间颜色",
+      "再展示一次连续变化与突然跳变的对比",
+      "确认学生能说出依据后进入下一屏"
+    ]
+  }
+}
