@@ -1,10 +1,19 @@
 {
-  "schemaVersion": "1.0",
-  "status": "REPAIR_IN_PROGRESS",
-  "acknowledgedMissing": [
-    "SHIWEI_CLASSROOM_M2_SEMESTER_WORKSET_GPT_AUDIT_20260717.zip",
-    "SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_TASK_PACKAGE_20260717.zip"
+  "schemaVersion": "1.1",
+  "status": "PAYLOADS_PRESENT_AWAITING_CODEX_REHASH",
+  "uploaded": [
+    {
+      "path": "SHIWEI_CLASSROOM_M2_SEMESTER_WORKSET_GPT_AUDIT_20260717.zip",
+      "declaredSha256": "7EB43F45799222B84108B4CFD922E42ECB16E8C200C1626A56FC416F2F142D6B",
+      "gitBlobSha": "5d4ff766315d1ddc42fe63416dc15eb9fd78665a"
+    },
+    {
+      "path": "SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_TASK_PACKAGE_20260717.zip",
+      "declaredSha256": "D6AE019D907C8F1A6AFD35111BDB9EDC46F88E93073E3EFC9FCACAED4267CABC",
+      "gitBlobSha": "d9fbd664630510ea848a83029c7f5eb288e89245"
+    }
   ],
   "implementationAuthorized": false,
-  "note": "Do not execute M2.1 until binary payload transport is complete and independently verified."
+  "nextRequiredAction": "Codex downloads both binary ZIP files from the fixed response commit and independently recomputes SHA256 before closing intake or starting M2.1.",
+  "note": "The earlier MISSING state is superseded. Actual ZIP files are now present in the Git tree through the Git Data API."
 }
