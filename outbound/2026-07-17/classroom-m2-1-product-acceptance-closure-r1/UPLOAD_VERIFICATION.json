@@ -25,5 +25,14 @@
     "governanceContent": "76bb22aa4f32f2d6add3ccfd14d16ac18ced1bf2",
     "fixedInboundResponse": "d2cfed93c4a5357bc6feab543fd94fd0a7464dca"
   },
-  "remoteVerification": "PERFORM_AFTER_CONTENT_COMMIT"
+  "remoteVerification": {
+    "status": "PASS",
+    "verifiedContentCommit": "da4edcf9531d9b7f3056da0d7716f8896b087a8a",
+    "observedPointerCommit": "9493351ed0ba5db933c1261c97b5d71d9c3f841f",
+    "remoteTreeFiles": 102,
+    "gitBlobMatches": "102/102 PASS",
+    "rawLinks": "7/7 HTTP 200",
+    "remoteZipBytes": 2372904,
+    "remoteZipSha256": "062A9B34A456B16D74694B40DE8BD77C0ED2C97188A7B39F3BD74E610168D903"
+  }
 }
