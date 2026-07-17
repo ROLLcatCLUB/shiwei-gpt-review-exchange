@@ -1,0 +1,7 @@
+{
+  "schemaVersion": "1.0",
+  "status": "BINARY_REUPLOAD_STARTED",
+  "reason": "Replace both declared ZIP paths with Git blobs whose object IDs are derived from the local verified bytes.",
+  "auditZipExpectedSha256": "7EB43F45799222B84108B4CFD922E42ECB16E8C200C1626A56FC416F2F142D6B",
+  "taskZipExpectedSha256": "D6AE019D907C8F1A6AFD35111BDB9EDC46F88E93073E3EFC9FCACAED4267CABC"
+}
