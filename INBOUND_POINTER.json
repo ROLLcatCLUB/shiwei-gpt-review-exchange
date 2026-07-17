@@ -1,26 +1,32 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "repository": "ROLLcatCLUB/shiwei-gpt-review-exchange",
   "branch": "gpt-response",
-  "status": "READY_FOR_CODEX_REVIEW",
+  "status": "HOLD_MISSING_BINARY_PAYLOAD",
   "latestInbound": {
     "responseId": "gpt-m2-semester-workset-audit-m2-1-task-r1",
     "directory": "inbound/gpt/2026-07-17/gpt-m2-semester-workset-audit-m2-1-task-r1/",
-    "responseCommit": "1666697892a5dbfd0279b2775c75dec649923082",
-    "supersedesIncompleteResponseCommit": "2d9032c173dea5af0c9c3d068a60c86d0a651495",
+    "responseCommit": null,
+    "lastTextRepairCommit": "f773f6bd1c0df6da5f067d830354a58de8d0bd34",
     "decision": "PASS_M2_ENGINEERING_FOUNDATION_WITH_REQUIRED_M2_1_PRODUCT_AND_STATE_CLOSURE",
-    "binaryPayloadStatus": "COMPLETE",
-    "taskPackage": "SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_TASK_PACKAGE_20260717.zip",
-    "taskPackageSha256": "D6AE019D907C8F1A6AFD35111BDB9EDC46F88E93073E3EFC9FCACAED4267CABC",
-    "auditPackage": "SHIWEI_CLASSROOM_M2_SEMESTER_WORKSET_GPT_AUDIT_20260717.zip",
-    "auditPackageSha256": "7EB43F45799222B84108B4CFD922E42ECB16E8C200C1626A56FC416F2F142D6B",
-    "uploadVerification": "UPLOAD_VERIFICATION.json"
+    "binaryPayloadStatus": "MISSING",
+    "missingPayloads": [
+      {
+        "path": "SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_TASK_PACKAGE_20260717.zip",
+        "sha256": "D6AE019D907C8F1A6AFD35111BDB9EDC46F88E93073E3EFC9FCACAED4267CABC"
+      },
+      {
+        "path": "SHIWEI_CLASSROOM_M2_SEMESTER_WORKSET_GPT_AUDIT_20260717.zip",
+        "sha256": "7EB43F45799222B84108B4CFD922E42ECB16E8C200C1626A56FC416F2F142D6B"
+      }
+    ],
+    "implementationAuthorized": false
   },
   "codexReceiptToRecheck": {
     "branch": "main",
     "pointer": "CODEX_INTAKE_POINTER.json",
-    "previousStatus": "PARTIAL_HOLD_MISSING_DECLARED_PAYLOAD"
+    "status": "PARTIAL_HOLD_MISSING_DECLARED_PAYLOAD"
   },
-  "note": "Manual bootstrap test response repaired after Codex intake receipt. Both declared ZIP binaries are now present. Codex must independently download and recompute SHA256 before closing intake or starting implementation.",
-  "updatedAt": "2026-07-17T21:25:00+08:00"
+  "note": "Codex intake is correct. The earlier pointer incorrectly declared binary transport complete. Do not execute M2.1 until both ZIP files are uploaded by a binary-capable publisher or Release asset, remotely rehashed, and this pointer is updated to a final commit covering the complete response.",
+  "updatedAt": "2026-07-17T23:40:00+08:00"
 }
