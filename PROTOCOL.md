@@ -113,3 +113,30 @@ GitHub gpt-response
 4. 远程 ZIP SHA256 与本地一致；
 5. `CURRENT_POINTER.json` 指向固定 commit；
 6. GitHub 上传结果进入本地开发日志和治理账本。
+
+## 九、Codex 收件回执
+
+GPT 更新 `gpt-response:INBOUND_POINTER.json` 后，Codex 不在该分支回写。Codex 在 `main` 分支创建：
+
+```text
+receipts/codex/<YYYY-MM-DD>/<response-id>/
+├─ CODEX_INTAKE_RECEIPT.json
+└─ CODEX_INTAKE_SUMMARY.md
+```
+
+并更新根目录：
+
+```text
+CODEX_INTAKE_POINTER.json
+```
+
+回执状态至少区分：
+
+```text
+COMPLETE
+PARTIAL_HOLD_MISSING_DECLARED_PAYLOAD
+REJECTED_HASH_MISMATCH
+REJECTED_POINTER_OR_MANIFEST_INVALID
+```
+
+GPT 回传后应读取该指针。Codex 回执必须指向一个已经包含完整回执正文的固定 commit，不得把指针自身提交冒充内容锚点。manifest 声明的 ZIP 或 Release asset 实体缺失时，即使文字文件齐全也只能是 `PARTIAL_HOLD`。

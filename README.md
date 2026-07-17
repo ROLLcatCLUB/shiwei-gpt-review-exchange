@@ -21,6 +21,7 @@ inbound/gpt/<日期>/<response-id>/
 
 5. 更新 `gpt-response` 分支根目录的 `INBOUND_POINTER.json`。
 6. 回传文件和字段必须符合 `PROTOCOL.md` 与 `templates/`。
+7. 回传后读取 `main` 分支根目录的 `CODEX_INTAKE_POINTER.json`，确认 Codex 是否完整收到；若为 HOLD，按回执补齐后再更新入站指针。
 
 ## 给 Codex
 
@@ -35,6 +36,7 @@ outbound/<日期>/<task-id>/
 4. 通过 GitHub Git Data API 发布；不依赖本机损坏的 HTTPS git helper。
 5. 验证远程文件树、固定 commit raw 链接和远程 ZIP SHA256。
 6. 读取 GPT 回传时只查询 `gpt-response` 分支的 `INBOUND_POINTER.json`。
+7. 核验后在 `main:receipts/codex/` 发布收件回执，并更新 `CODEX_INTAKE_POINTER.json`；不修改 GPT 所有的 `gpt-response` 分支。
 
 ## 给卷猫先生的最简口令
 
@@ -50,4 +52,4 @@ outbound/<日期>/<task-id>/
 
 ## 当前状态
 
-仓库仅完成协议初始化。按用户要求，当前 M2 不补传；从下一个审核包开始使用。
+仓库已完成首次 GPT 回传读取测试。首次文字回传可读，但 manifest 声明的两个 ZIP 缺失，具体状态由 `CODEX_INTAKE_POINTER.json` 指向；当前 M2 仍未作为标准 `main/outbound` 出站包补传。
