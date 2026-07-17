@@ -2,8 +2,24 @@
   "schemaVersion": "1.0",
   "repository": "ROLLcatCLUB/shiwei-gpt-review-exchange",
   "branch": "main",
-  "status": "WAITING_FOR_NEXT_REVIEW_PACKAGE",
-  "latestOutbound": null,
+  "status": "REVIEW_READY",
+  "latestOutbound": {
+    "taskId": "classroom-m2-1-product-acceptance-closure-r1",
+    "directory": "outbound/2026-07-17/classroom-m2-1-product-acceptance-closure-r1/",
+    "outboundCommit": "da4edcf9531d9b7f3056da0d7716f8896b087a8a",
+    "reviewPackagePath": "outbound/2026-07-17/classroom-m2-1-product-acceptance-closure-r1/SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_CUMULATIVE_PRIVATE_REVIEW_20260717.zip",
+    "reviewPackageSha256": "062A9B34A456B16D74694B40DE8BD77C0ED2C97188A7B39F3BD74E610168D903",
+    "packageManifestPath": "outbound/2026-07-17/classroom-m2-1-product-acceptance-closure-r1/PACKAGE_MANIFEST.json",
+    "uploadVerificationPath": "outbound/2026-07-17/classroom-m2-1-product-acceptance-closure-r1/UPLOAD_VERIFICATION.json",
+    "readOrder": [
+      "README_FOR_GPT_REVIEW.md",
+      "GPT_REVIEW_PROMPT.md",
+      "REVIEW_SUMMARY.md",
+      "ACCEPTANCE_MATRIX.md",
+      "UPLOAD_VERIFICATION.json",
+      "PACKAGE_MANIFEST.json"
+    ]
+  },
   "bootstrapReceipt": "BOOTSTRAP_RECEIPT.json",
   "readOrder": [
     "README.md",
@@ -15,6 +31,6 @@
     "pointer": "INBOUND_POINTER.json",
     "directoryPattern": "inbound/gpt/<YYYY-MM-DD>/<response-id>/"
   },
-  "note": "Current M2 is intentionally not backfilled. The next completed review package becomes the first outbound item.",
-  "updatedAt": "2026-07-17T00:00:00+08:00"
+  "note": "M2.1 cumulative review package is published from a fixed content commit. GPT should review that commit and return through gpt-response.",
+  "updatedAt": "2026-07-17T19:53:00+08:00"
 }
