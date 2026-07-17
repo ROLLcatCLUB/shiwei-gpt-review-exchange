@@ -1,32 +1,29 @@
 {
-  "schemaVersion": "1.2",
+  "schemaVersion": "1.3",
   "repository": "ROLLcatCLUB/shiwei-gpt-review-exchange",
   "branch": "gpt-response",
-  "status": "HOLD_MISSING_BINARY_PAYLOAD",
+  "status": "READY_FOR_CODEX_REVIEW",
   "latestInbound": {
     "responseId": "gpt-m2-semester-workset-audit-m2-1-task-r1",
     "directory": "inbound/gpt/2026-07-17/gpt-m2-semester-workset-audit-m2-1-task-r1/",
-    "responseCommit": null,
-    "lastTextRepairCommit": "f773f6bd1c0df6da5f067d830354a58de8d0bd34",
+    "responseCommit": "f856a233924f86b136e342e5bcb4cc88340d0fcc",
+    "supersedesIncompleteResponseCommit": "2d9032c173dea5af0c9c3d068a60c86d0a651495",
     "decision": "PASS_M2_ENGINEERING_FOUNDATION_WITH_REQUIRED_M2_1_PRODUCT_AND_STATE_CLOSURE",
-    "binaryPayloadStatus": "MISSING",
-    "missingPayloads": [
-      {
-        "path": "SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_TASK_PACKAGE_20260717.zip",
-        "sha256": "D6AE019D907C8F1A6AFD35111BDB9EDC46F88E93073E3EFC9FCACAED4267CABC"
-      },
-      {
-        "path": "SHIWEI_CLASSROOM_M2_SEMESTER_WORKSET_GPT_AUDIT_20260717.zip",
-        "sha256": "7EB43F45799222B84108B4CFD922E42ECB16E8C200C1626A56FC416F2F142D6B"
-      }
-    ],
+    "binaryPayloadStatus": "COMPLETE_AWAITING_CODEX_REHASH",
+    "taskPackage": "SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_TASK_PACKAGE_20260717.zip",
+    "taskPackageSha256": "D6AE019D907C8F1A6AFD35111BDB9EDC46F88E93073E3EFC9FCACAED4267CABC",
+    "auditPackage": "SHIWEI_CLASSROOM_M2_SEMESTER_WORKSET_GPT_AUDIT_20260717.zip",
+    "auditPackageSha256": "7EB43F45799222B84108B4CFD922E42ECB16E8C200C1626A56FC416F2F142D6B",
+    "responseManifest": "RESPONSE_MANIFEST.json",
+    "uploadVerification": "UPLOAD_VERIFICATION.json",
+    "transportCompletion": "TRANSPORT_COMPLETION.md",
     "implementationAuthorized": false
   },
   "codexReceiptToRecheck": {
     "branch": "main",
     "pointer": "CODEX_INTAKE_POINTER.json",
-    "status": "PARTIAL_HOLD_MISSING_DECLARED_PAYLOAD"
+    "previousStatus": "PARTIAL_HOLD_MISSING_DECLARED_PAYLOAD"
   },
-  "note": "Codex intake is correct. The earlier pointer incorrectly declared binary transport complete. Do not execute M2.1 until both ZIP files are uploaded by a binary-capable publisher or Release asset, remotely rehashed, and this pointer is updated to a final commit covering the complete response.",
-  "updatedAt": "2026-07-17T23:40:00+08:00"
+  "note": "The two ZIP binaries are now present in the fixed response commit. Codex must independently download, recompute SHA256, validate manifests, and publish a new intake receipt. This pointer does not authorize implementation.",
+  "updatedAt": "2026-07-17T23:59:00+08:00"
 }
