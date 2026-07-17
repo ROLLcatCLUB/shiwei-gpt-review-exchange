@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "repository": "ROLLcatCLUB/shiwei-gpt-review-exchange",
+  "branch": "gpt-response",
+  "responseId": "gpt-m2-semester-workset-audit-m2-1-task-r1",
+  "status": "PASS_BINARY_PAYLOADS_PRESENT",
+  "payloads": [
+    {
+      "path": "inbound/gpt/2026-07-17/gpt-m2-semester-workset-audit-m2-1-task-r1/SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_TASK_PACKAGE_20260717.zip",
+      "sizeBytes": 5063,
+      "sha256": "D6AE019D907C8F1A6AFD35111BDB9EDC46F88E93073E3EFC9FCACAED4267CABC",
+      "gitBlobSha": "d9fbd664630510ea848a83029c7f5eb288e89245"
+    },
+    {
+      "path": "inbound/gpt/2026-07-17/gpt-m2-semester-workset-audit-m2-1-task-r1/SHIWEI_CLASSROOM_M2_SEMESTER_WORKSET_GPT_AUDIT_20260717.zip",
+      "sizeBytes": 6383,
+      "sha256": "7EB43F45799222B84108B4CFD922E42ECB16E8C200C1626A56FC416F2F142D6B",
+      "gitBlobSha": "5d4ff766315d1ddc42fe63416dc15eb9fd78665a"
+    }
+  ],
+  "temporaryBase64PayloadRemoved": true,
+  "forbiddenFileCount": 0,
+  "note": "Codex must still independently download both ZIPs and recompute SHA256 before accepting the response."
+}
