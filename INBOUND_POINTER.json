@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "1.0",
+  "repository": "ROLLcatCLUB/shiwei-gpt-review-exchange",
+  "branch": "gpt-response",
+  "status": "WAITING_FOR_GPT_RESPONSE",
+  "latestInbound": null,
+  "responseDirectoryPattern": "inbound/gpt/<YYYY-MM-DD>/<response-id>/",
+  "updatedAt": "2026-07-17T00:00:00+08:00"
+}

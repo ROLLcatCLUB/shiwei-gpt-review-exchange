@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "responseId": "<response-id>",
+  "createdAt": "<ISO-8601>",
+  "authoredBy": "EXTERNAL_GPT",
+  "respondsTo": {
+    "taskId": "<outbound-task-id>",
+    "outboundCommit": "<40-char-commit-sha>",
+    "reviewPackagePath": "<path>",
+    "reviewPackageSha256": "<64-char-sha256>"
+  },
+  "decision": "<external-review-decision>",
+  "summaryPath": "REVIEW_SUMMARY.md",
+  "originalReviewPath": "ORIGINAL_GPT_REVIEW.md",
+  "adoptionRecommendationPath": "ADOPTION_RECOMMENDATION.md",
+  "actionItemsPath": "ACTION_ITEMS.md",
+  "taskPackage": {
+    "path": "<task-package>.zip",
+    "sha256File": "<task-package>.zip.sha256.txt",
+    "sha256": "<64-char-sha256>"
+  },
+  "projectAuthority": "EXTERNAL_OPINION_NOT_PROJECT_DECISION"
+}

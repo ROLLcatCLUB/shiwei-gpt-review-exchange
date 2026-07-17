@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0",
+  "repository": "ROLLcatCLUB/shiwei-gpt-review-exchange",
+  "branch": "main",
+  "status": "WAITING_FOR_NEXT_REVIEW_PACKAGE",
+  "latestOutbound": null,
+  "readOrder": [
+    "README.md",
+    "PROTOCOL.md",
+    "CURRENT_POINTER.json"
+  ],
+  "gptResponse": {
+    "branch": "gpt-response",
+    "pointer": "INBOUND_POINTER.json",
+    "directoryPattern": "inbound/gpt/<YYYY-MM-DD>/<response-id>/"
+  },
+  "note": "Current M2 is intentionally not backfilled. The next completed review package becomes the first outbound item.",
+  "updatedAt": "2026-07-17T00:00:00+08:00"
+}
