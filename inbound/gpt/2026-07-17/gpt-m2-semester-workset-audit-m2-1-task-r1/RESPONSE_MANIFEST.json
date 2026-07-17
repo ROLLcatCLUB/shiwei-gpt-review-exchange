@@ -1,8 +1,8 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "responseId": "gpt-m2-semester-workset-audit-m2-1-task-r1",
   "createdAt": "2026-07-17T20:00:00+08:00",
-  "completedAt": "2026-07-17T21:20:00+08:00",
+  "correctedAt": "2026-07-17T23:40:00+08:00",
   "authoredBy": "EXTERNAL_GPT",
   "protocolMode": "MANUAL_BOOTSTRAP_WITHOUT_MAIN_OUTBOUND",
   "respondsTo": {
@@ -17,23 +17,24 @@
   "adoptionRecommendationPath": "ADOPTION_RECOMMENDATION.md",
   "actionItemsPath": "ACTION_ITEMS.md",
   "manualBootstrapNoticePath": "MANUAL_BOOTSTRAP_NOTICE.md",
-  "transportRepairNotePath": "TRANSPORT_REPAIR_NOTE.md",
-  "uploadVerificationPath": "UPLOAD_VERIFICATION.json",
-  "binaryTransportStatusPath": "BINARY_TRANSPORT_STATUS.json",
+  "transportDiagnosisPath": "TRANSPORT_DIAGNOSIS.md",
+  "binaryTransportLimitationPath": "BINARY_TRANSPORT_LIMITATION.md",
+  "binaryRepairStatusPath": "BINARY_REPAIR_STATUS.json",
   "auditPackage": {
     "path": "SHIWEI_CLASSROOM_M2_SEMESTER_WORKSET_GPT_AUDIT_20260717.zip",
     "sha256File": "SHIWEI_CLASSROOM_M2_SEMESTER_WORKSET_GPT_AUDIT_20260717.zip.sha256.txt",
     "sha256": "7EB43F45799222B84108B4CFD922E42ECB16E8C200C1626A56FC416F2F142D6B",
-    "transport": "GITHUB_GIT_DATA_API_BINARY_BLOB",
-    "status": "PRESENT"
+    "status": "MISSING",
+    "requiredTransport": "GITHUB_GIT_DATA_API_BINARY_BLOB_OR_RELEASE_ASSET"
   },
   "taskPackage": {
     "path": "SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_TASK_PACKAGE_20260717.zip",
     "sha256File": "SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_TASK_PACKAGE_20260717.zip.sha256.txt",
     "sha256": "D6AE019D907C8F1A6AFD35111BDB9EDC46F88E93073E3EFC9FCACAED4267CABC",
-    "transport": "GITHUB_GIT_DATA_API_BINARY_BLOB",
-    "status": "PRESENT"
+    "status": "MISSING",
+    "requiredTransport": "GITHUB_GIT_DATA_API_BINARY_BLOB_OR_RELEASE_ASSET"
   },
-  "binaryPayloadStatus": "COMPLETE",
+  "binaryPayloadStatus": "INCOMPLETE",
+  "implementationAuthorized": false,
   "projectAuthority": "EXTERNAL_OPINION_NOT_PROJECT_DECISION"
 }
