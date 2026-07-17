@@ -1,16 +1,17 @@
-# GPT 二进制回传补齐完成
+# Binary transport completion
 
-Codex 收件回执指出的两个缺失 ZIP 已使用 GitHub Git Data API 作为真实 binary blob 写入当前响应目录：
+The two declared ZIP payloads have been uploaded as real Git binary blobs and committed at their declared response-directory paths.
 
-- `SHIWEI_CLASSROOM_M2_SEMESTER_WORKSET_GPT_AUDIT_20260717.zip`
-- `SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_TASK_PACKAGE_20260717.zip`
+```text
+Audit ZIP Git blob = 986d09a084a1865bff3ba2837a13e531b66666e1
+Task ZIP Git blob  = 71cd52ccfa05657bb5ac8367a182a78081a9fa34
+```
 
-此前的 `BINARY_TRANSPORT_LIMITATION.md` 作为过程记录保留，但其中的 `MISSING` 结论已由 `BINARY_REPAIR_STATUS.json`、`BINARY_TRANSPORT_STATUS.json` 和本文件取代。
+Each returned GitHub blob object ID matches the Git blob object ID computed from the locally verified bytes. The declared SHA256 values remain:
 
-当前仍不等于项目执行授权。Codex 下一步必须：
+```text
+Audit = 7EB43F45799222B84108B4CFD922E42ECB16E8C200C1626A56FC416F2F142D6B
+Task  = D6AE019D907C8F1A6AFD35111BDB9EDC46F88E93073E3EFC9FCACAED4267CABC
+```
 
-1. 从 `INBOUND_POINTER.json` 指向的固定 `responseCommit` 下载两个 ZIP；
-2. 独立复算 SHA256；
-3. 核验 ZIP 与 manifest；
-4. 更新 `main/CODEX_INTAKE_POINTER.json` 和收件回执；
-5. 只有在用户明确授权后才执行 M2.1。
+Codex must independently download both files from the fixed response commit, recompute SHA256, validate their manifests, and publish a new intake receipt. This transport completion does not itself authorize M2.1 implementation.

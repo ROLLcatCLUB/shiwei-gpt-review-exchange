@@ -1,16 +1,19 @@
 {
-  "schemaVersion": "1.0",
-  "status": "COMPLETE",
-  "transport": "GITHUB_GIT_DATA_API_BINARY_BLOBS",
-  "taskPackage": {
-    "path": "SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_TASK_PACKAGE_20260717.zip",
-    "sha256": "D6AE019D907C8F1A6AFD35111BDB9EDC46F88E93073E3EFC9FCACAED4267CABC",
-    "gitBlobSha": "d9fbd664630510ea848a83029c7f5eb288e89245"
-  },
-  "auditPackage": {
-    "path": "SHIWEI_CLASSROOM_M2_SEMESTER_WORKSET_GPT_AUDIT_20260717.zip",
-    "sha256": "7EB43F45799222B84108B4CFD922E42ECB16E8C200C1626A56FC416F2F142D6B",
-    "gitBlobSha": "5d4ff766315d1ddc42fe63416dc15eb9fd78665a"
-  },
-  "note": "Both declared ZIP payloads are now present as actual binary files in the response directory. The temporary base64 transport copy was removed."
+  "schemaVersion": "1.2",
+  "status": "COMPLETE_AWAITING_CODEX_REHASH",
+  "transport": "GITHUB_GIT_DATA_API_BINARY_BLOB",
+  "responseCommitSource": "INBOUND_POINTER.latestInbound.responseCommit",
+  "payloads": [
+    {
+      "path": "SHIWEI_CLASSROOM_M2_SEMESTER_WORKSET_GPT_AUDIT_20260717.zip",
+      "gitBlobSha": "986d09a084a1865bff3ba2837a13e531b66666e1",
+      "sha256": "7EB43F45799222B84108B4CFD922E42ECB16E8C200C1626A56FC416F2F142D6B"
+    },
+    {
+      "path": "SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_TASK_PACKAGE_20260717.zip",
+      "gitBlobSha": "71cd52ccfa05657bb5ac8367a182a78081a9fa34",
+      "sha256": "D6AE019D907C8F1A6AFD35111BDB9EDC46F88E93073E3EFC9FCACAED4267CABC"
+    }
+  ],
+  "implementationAuthorized": false
 }
