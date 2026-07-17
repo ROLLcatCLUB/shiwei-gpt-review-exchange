@@ -6,7 +6,8 @@
   "latestOutbound": {
     "taskId": "classroom-m2-1-product-acceptance-closure-r1",
     "directory": "outbound/2026-07-17/classroom-m2-1-product-acceptance-closure-r1/",
-    "outboundCommit": "da4edcf9531d9b7f3056da0d7716f8896b087a8a",
+    "outboundCommit": "ebc6d4d72967c04cabdc2275d55afed9d4655594",
+    "initialContentCommit": "da4edcf9531d9b7f3056da0d7716f8896b087a8a",
     "reviewPackagePath": "outbound/2026-07-17/classroom-m2-1-product-acceptance-closure-r1/SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_CUMULATIVE_PRIVATE_REVIEW_20260717.zip",
     "reviewPackageSha256": "062A9B34A456B16D74694B40DE8BD77C0ED2C97188A7B39F3BD74E610168D903",
     "packageManifestPath": "outbound/2026-07-17/classroom-m2-1-product-acceptance-closure-r1/PACKAGE_MANIFEST.json",
@@ -32,5 +33,5 @@
     "directoryPattern": "inbound/gpt/<YYYY-MM-DD>/<response-id>/"
   },
   "note": "M2.1 cumulative review package is published from a fixed content commit. GPT should review that commit and return through gpt-response.",
-  "updatedAt": "2026-07-17T19:53:00+08:00"
+  "updatedAt": "2026-07-17T19:57:00+08:00"
 }
