@@ -4,6 +4,7 @@
   "branch": "main",
   "status": "WAITING_FOR_NEXT_REVIEW_PACKAGE",
   "latestOutbound": null,
+  "bootstrapReceipt": "BOOTSTRAP_RECEIPT.json",
   "readOrder": [
     "README.md",
     "PROTOCOL.md",

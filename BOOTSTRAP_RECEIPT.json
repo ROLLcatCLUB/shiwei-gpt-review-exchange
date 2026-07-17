@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "repository": "ROLLcatCLUB/shiwei-gpt-review-exchange",
+  "visibility": "PUBLIC",
+  "defaultBranch": "main",
+  "responseBranch": "gpt-response",
+  "verifiedProtocolCommit": "66aa4f9b7e362dc970c12f6f3e6d96d0ed55ab48",
+  "localFiles": 13,
+  "remoteBlobs": 13,
+  "treeMatch": true,
+  "rawChecks": {
+    "README.md": 200,
+    "CURRENT_POINTER.json": 200,
+    "PROTOCOL.md": 200
+  },
+  "exchangeTreeValidator": {
+    "result": "PASS",
+    "files": 13,
+    "failed": 0
+  },
+  "normalGitPush": "DISABLED_MISSING_GIT_REMOTE_HTTPS_HELPER",
+  "publisher": "GITHUB_GIT_DATA_API",
+  "currentM2Backfill": false,
+  "firstOutbound": "NEXT_REVIEW_PACKAGE",
+  "createdAt": "2026-07-17T00:00:00+08:00"
+}
