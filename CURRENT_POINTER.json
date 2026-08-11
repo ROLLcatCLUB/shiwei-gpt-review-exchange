@@ -4,14 +4,20 @@
   "branch": "main",
   "status": "REVIEW_READY",
   "latestOutbound": {
-    "taskId": "classroom-m2-1-product-acceptance-closure-r1",
-    "directory": "outbound/2026-07-17/classroom-m2-1-product-acceptance-closure-r1/",
-    "outboundCommit": "ebc6d4d72967c04cabdc2275d55afed9d4655594",
-    "initialContentCommit": "da4edcf9531d9b7f3056da0d7716f8896b087a8a",
-    "reviewPackagePath": "outbound/2026-07-17/classroom-m2-1-product-acceptance-closure-r1/SHIWEI_CLASSROOM_M2_1_PRODUCT_ACCEPTANCE_CLOSURE_CUMULATIVE_PRIVATE_REVIEW_20260717.zip",
-    "reviewPackageSha256": "062A9B34A456B16D74694B40DE8BD77C0ED2C97188A7B39F3BD74E610168D903",
-    "packageManifestPath": "outbound/2026-07-17/classroom-m2-1-product-acceptance-closure-r1/PACKAGE_MANIFEST.json",
-    "uploadVerificationPath": "outbound/2026-07-17/classroom-m2-1-product-acceptance-closure-r1/UPLOAD_VERIFICATION.json",
+    "taskId": "xiaojiao-agent-02-trusted-context-envelope-contract-closure",
+    "taskAuthorityId": "XIAOJIAO_AGENT_02_TRUSTED_AGENT_CONTEXT_ENVELOPE_CONTRACT_AND_DEPENDENCY_CLOSURE",
+    "directory": "outbound/2026-08-11/xiaojiao-agent-02-trusted-context-envelope-contract-closure/",
+    "outboundCommit": "ef548380a381883a3f4254076d988d55c9f115b0",
+    "initialContentCommit": "3bf4998ab2707f0cb688575276b390648a2f1b0d",
+    "reviewPackagePath": "outbound/2026-08-11/xiaojiao-agent-02-trusted-context-envelope-contract-closure/SHIWEI_XIAOJIAO_AGENT_02_TRUSTED_AGENT_CONTEXT_ENVELOPE_CONTRACT_AND_DEPENDENCY_CLOSURE_CUMULATIVE_REVIEW_20260811_V1.zip",
+    "reviewPackageBytes": 75658,
+    "reviewPackageSha256": "0074C3AC19E153253D9E867EFF365A2D650541104F4180AA2C9986CB613EECF8",
+    "reviewPackageEntryCount": 26,
+    "packageManifestPath": "outbound/2026-08-11/xiaojiao-agent-02-trusted-context-envelope-contract-closure/PACKAGE_MANIFEST.json",
+    "uploadVerificationPath": "outbound/2026-08-11/xiaojiao-agent-02-trusted-context-envelope-contract-closure/UPLOAD_VERIFICATION.json",
+    "sourceDecision": "PASS_AND_CLOSE_WITH_OWNER_CLASSIFICATION_ADJUSTMENT",
+    "sourceStatus": "XIAOJIAO_AGENT_02_ACCEPTED_AND_CLOSED",
+    "nextAgentTask": "NOT_AUTHORIZED",
     "readOrder": [
       "README_FOR_GPT_REVIEW.md",
       "GPT_REVIEW_PROMPT.md",
@@ -32,6 +38,6 @@
     "pointer": "INBOUND_POINTER.json",
     "directoryPattern": "inbound/gpt/<YYYY-MM-DD>/<response-id>/"
   },
-  "note": "M2.1 cumulative review package is published from a fixed content commit. GPT should review that commit and return through gpt-response.",
-  "updatedAt": "2026-07-17T19:57:00+08:00"
+  "note": "XIAOJIAO_AGENT_02 cumulative review is published from a fixed verified content commit. This upload does not authorize XIAOJIAO_AGENT_03, Agent runtime, or CRDF supplier implementation.",
+  "updatedAt": "2026-08-11T20:41:01+08:00"
 }
