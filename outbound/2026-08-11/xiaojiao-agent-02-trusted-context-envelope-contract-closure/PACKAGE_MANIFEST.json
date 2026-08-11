@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0",
+  "taskId": "xiaojiao-agent-02-trusted-context-envelope-contract-closure",
+  "taskAuthorityId": "XIAOJIAO_AGENT_02_TRUSTED_AGENT_CONTEXT_ENVELOPE_CONTRACT_AND_DEPENDENCY_CLOSURE",
+  "date": "2026-08-11",
+  "repository": "ROLLcatCLUB/shiwei-gpt-review-exchange",
+  "branch": "main",
+  "outboundDirectory": "outbound/2026-08-11/xiaojiao-agent-02-trusted-context-envelope-contract-closure/",
+  "sourceDecision": "PASS_AND_CLOSE_WITH_OWNER_CLASSIFICATION_ADJUSTMENT",
+  "coverageRule": "All six initial outbound payload files. PACKAGE_MANIFEST.json and later UPLOAD_VERIFICATION.json are explicit self-reference exceptions.",
+  "payloadCount": 6,
+  "payload": [
+    {
+      "path": "ACCEPTANCE_MATRIX.md",
+      "bytes": 1133,
+      "sha256": "288806E14693F014158EF105822F03C3683FB749127B344AE19AB4383D51AE66"
+    },
+    {
+      "path": "GPT_REVIEW_PROMPT.md",
+      "bytes": 1220,
+      "sha256": "96FE58487B5991FD69D72D7141D12EF461E8CF1DB053A36BFB610C7E6A024FB3"
+    },
+    {
+      "path": "README_FOR_GPT_REVIEW.md",
+      "bytes": 1851,
+      "sha256": "5278AD319531D945EF1EE16E0DBE0AA3AFDBD1671F81616E3286EA87B12664A6"
+    },
+    {
+      "path": "REVIEW_SUMMARY.md",
+      "bytes": 1173,
+      "sha256": "96A0296E7FCABD0DE42D04F4E8D59B7214A7AA9D5ADBCDE29DBFBE4B9D83E5ED"
+    },
+    {
+      "path": "SHIWEI_XIAOJIAO_AGENT_02_TRUSTED_AGENT_CONTEXT_ENVELOPE_CONTRACT_AND_DEPENDENCY_CLOSURE_CUMULATIVE_REVIEW_20260811_V1.zip",
+      "bytes": 75658,
+      "sha256": "0074C3AC19E153253D9E867EFF365A2D650541104F4180AA2C9986CB613EECF8",
+      "entryCount": 26,
+      "crcFullRead": "PASS"
+    },
+    {
+      "path": "SHIWEI_XIAOJIAO_AGENT_02_TRUSTED_AGENT_CONTEXT_ENVELOPE_CONTRACT_AND_DEPENDENCY_CLOSURE_CUMULATIVE_REVIEW_20260811_V1.zip.sha256.txt",
+      "bytes": 188,
+      "sha256": "E603B4CEBFF813D8D331AC1F07D071F060EFF20016EBC68222DE55641CE139ED"
+    }
+  ],
+  "securityAndPrivacy": {
+    "secretScan": "PASS",
+    "secretFindings": 0,
+    "realTeacherData": "NONE",
+    "realStudentData": "NONE",
+    "realClassroomLog": "NONE",
+    "forbiddenFiles": 0
+  },
+  "authorizationBoundary": {
+    "xiaojiaoAgent03": "NOT_AUTHORIZED",
+    "agentRuntimeImplementation": "NOT_AUTHORIZED",
+    "crdfSupplierImplementation": "NOT_AUTHORIZED_BY_THIS_UPLOAD",
+    "modelToolActionDomainMutationL4Plus": "NOT_AUTHORIZED"
+  }
+}
