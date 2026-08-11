@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0",
+  "taskId": "review-room-profile-00-candidate-formalization-20260811",
+  "date": "2026-08-11",
+  "repository": "ROLLcatCLUB/shiwei-gpt-review-exchange",
+  "branch": "main",
+  "reviewPackage": {
+    "transport": "PUBLIC_GITHUB_RELEASE_ASSET",
+    "name": "SHIWEI_REVIEW_ROOM_PROFILE_00_MINIMAL_COMPATIBLE_LINE_ADOPTION_PROFILE_V1_CANDIDATE_FORMALIZATION_AND_DETERMINISTIC_CLOSURE_CUMULATIVE_REVIEW_20260811_V1.zip",
+    "url": "https://github.com/ROLLcatCLUB/shiwei-gpt-review-exchange/releases/download/review-room-profile-00-20260811/SHIWEI_REVIEW_ROOM_PROFILE_00_MINIMAL_COMPATIBLE_LINE_ADOPTION_PROFILE_V1_CANDIDATE_FORMALIZATION_AND_DETERMINISTIC_CLOSURE_CUMULATIVE_REVIEW_20260811_V1.zip",
+    "releasePage": "https://github.com/ROLLcatCLUB/shiwei-gpt-review-exchange/releases/tag/review-room-profile-00-20260811",
+    "releaseTag": "review-room-profile-00-20260811",
+    "releaseAssetId": 510199650,
+    "sha256": "E07A4828D9F6CC44AE85AF10E599BD0CAE2DD56909375E321BD86618FCE8ECF8",
+    "bytes": 37295178,
+    "entries": 33
+  },
+  "candidate": {
+    "commit": "274f5e1ea40ffde864868591ae10f42428ba4d2a",
+    "directParent": "45641d12ed836e81c707c70bab5fc8f4004b756b",
+    "tree": "a7e43b8d35679b8adfc2f6a11a3204c220aed09f",
+    "profileArtifactBlob": "28c14b7a64537fa7feedece7dc935c3b6b16f60f"
+  },
+  "publicationDisclosure": {
+    "repositoryVisibility": "PUBLIC",
+    "exactOriginalBytesPreserved": true,
+    "localFilesystemPathsPresentInsideZip": true,
+    "ownerAuthorization": "EXPLICIT_ON_2026-08-11",
+    "packageSanitized": false
+  },
+  "repositoryPayload": [
+    {
+      "path": "ACCEPTANCE_MATRIX.md",
+      "sha256": "F2C618B81DFFB8D827352992FC2F1D244BCC3AABA6D1DB89FA0B3F58F19130A5",
+      "bytes": 561
+    },
+    {
+      "path": "ASSEMBLY_MANIFEST.json",
+      "sha256": "DA1386E0B4FC33625A335A562871055A654F97571E53DFD2CDA288BFEAC724E7",
+      "bytes": 70943
+    },
+    {
+      "path": "GPT_REVIEW_PROMPT.md",
+      "sha256": "8D1A0CBC91916CB7B2B590D770889E9D37AE588483AE25302EDF7F7FEA671BAD",
+      "bytes": 2030
+    },
+    {
+      "path": "README_FOR_GPT_REVIEW.md",
+      "sha256": "052281FB740CB871E40EC2AF92EEE472564F9C09555F62F5941B5D0DF4BD859E",
+      "bytes": 1119
+    },
+    {
+      "path": "REVIEW_SUMMARY.md",
+      "sha256": "3BDD730CCD1C0AC7751527E761B450D419A6B4FE6616407D14CB3BCB05C0AF44",
+      "bytes": 364
+    },
+    {
+      "path": "SHIWEI_REVIEW_ROOM_PROFILE_00_MINIMAL_COMPATIBLE_LINE_ADOPTION_PROFILE_V1_CANDIDATE_FORMALIZATION_AND_DETERMINISTIC_CLOSURE_CUMULATIVE_REVIEW_20260811_V1.zip.sha256.txt",
+      "sha256": "9F54E4E4CB92A99CD31CB30FE25587ACA7BD8F7C660A851E890083D93B614F68",
+      "bytes": 224
+    }
+  ],
+  "operationalFilesExcludedFromPayloadHashClosure": [
+    "PACKAGE_MANIFEST.json",
+    "UPLOAD_VERIFICATION.json"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0",
+  "taskId": "review-room-profile-00-candidate-formalization-20260811",
+  "repository": "ROLLcatCLUB/shiwei-gpt-review-exchange",
+  "branch": "main",
+  "reviewPackage": {
+    "transport": "PUBLIC_GITHUB_RELEASE_ASSET",
+    "url": "https://github.com/ROLLcatCLUB/shiwei-gpt-review-exchange/releases/download/review-room-profile-00-20260811/SHIWEI_REVIEW_ROOM_PROFILE_00_MINIMAL_COMPATIBLE_LINE_ADOPTION_PROFILE_V1_CANDIDATE_FORMALIZATION_AND_DETERMINISTIC_CLOSURE_CUMULATIVE_REVIEW_20260811_V1.zip",
+    "releaseAssetId": 510199650,
+    "sha256": "E07A4828D9F6CC44AE85AF10E599BD0CAE2DD56909375E321BD86618FCE8ECF8",
+    "bytes": 37295178,
+    "entries": 33
+  },
+  "localVerification": {
+    "sha256": "PASS",
+    "bytes": "PASS",
+    "zipEntryCount": "PASS",
+    "packageValidator": "71/71 PASS",
+    "forbiddenFiles": 0,
+    "publicPathDisclosure": "OWNER_AUTHORIZED"
+  },
+  "chunkTransport": {
+    "status": "PASS",
+    "chunkBytes": 131072,
+    "chunkCount": 285,
+    "remoteGitBlobs": "285/285 PRESENT",
+    "assemblyCommit": "63923bef7fef72ef191f7138efe1702ee8d653b7",
+    "assemblyTree": "3efcce1cac024d76212d7492eb2ce60b42a08bbe"
+  },
+  "cloudAssembly": {
+    "status": "PASS",
+    "workflowRunId": 31498792006,
+    "workflowRunUrl": "https://github.com/ROLLcatCLUB/shiwei-gpt-review-exchange/actions/runs/31498792006",
+    "conclusion": "success",
+    "steps": {
+      "checkout": "PASS",
+      "reassembleExactZip": "PASS",
+      "bytes": "PASS",
+      "sha256": "PASS",
+      "zipEntriesAndCrc": "PASS",
+      "publishReleaseAsset": "PASS"
+    }
+  },
+  "releaseAsset": {
+    "status": "PASS",
+    "state": "uploaded",
+    "assetId": 510199650,
+    "bytes": 37295178,
+    "onlyAssetInRelease": true
+  },
+  "remotePublicRedownload": {
+    "status": "PASS",
+    "bytes": 37295178,
+    "sha256": "E07A4828D9F6CC44AE85AF10E599BD0CAE2DD56909375E321BD86618FCE8ECF8",
+    "zipEntries": 33,
+    "crcReadEntries": 33
+  }
+}
